@@ -39,10 +39,10 @@ Clora is a modern audio and video meeting management application designed to mak
    - Create a `.env.local` file in the root directory.  
    - Add the following variables:  
      ```env  
-     NEXT_PUBLIC_CLERK_FRONTEND_API=<your-clerk-frontend-api>  
-     CLERK_API_KEY=<your-clerk-api-key>  
-     STREAM_API_KEY=<your-stream-api-key>  
-     STREAM_SECRET=<your-stream-secret>  
+      NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=<**************>
+      CLERK_SECRET_KEY=<**************>
+      STREAM_API_KEY=<**************>
+      STREAM_SECRET=<**************>
      ```  
 
 5. Start the development server:  
